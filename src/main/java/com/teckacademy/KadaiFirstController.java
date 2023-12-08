@@ -30,7 +30,7 @@ public class KadaiFirstController {
         result = num1*num2;
         return "実行結果：" + result;
     }
-    @GetMapping("/devide/{num1}/{num2}")
+    @GetMapping("/divide/{num1}/{num2}")
     public String calcDivide(@PathVariable int num1,@PathVariable int num2) {
         int result = 0;
         result = num1/num2;
